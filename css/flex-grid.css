@@ -7,7 +7,11 @@
 /*-----------------------------------------
 use case .col should equal 12 if not items will wrap inside .row
 --------------------------------------------*/
-/** upgraded for star-wars design **/
+/** upgraded for star-wars design
+ add col-1
+ custom push-1
+ media query col-1 
+**/
 html {
   box-sizing: border-box;
 }
@@ -27,10 +31,13 @@ html {
   padding-right: 1.04166666%;
 }/*row is to small wraps items inside section*/
 
-.col-3, .col-4, .col-6, .col-12 {
+.col-1,.col-3, .col-4, .col-6, .col-12 {
   padding-bottom: .25em;
 }
-
+.push-1 {
+  display: inline-flex;
+  left: 30%;
+}
 @media (min-width: 40em) {
   .row {
     flex-direction: row;
