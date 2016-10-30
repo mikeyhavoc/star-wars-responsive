@@ -4,13 +4,18 @@
    updated: 10/30/2016
    version: 0.6
 ***/
+/****************************
+px to % for a 960 grid
+ 20  / 960  =  2.0833333333333332%;
+ 10 / 960   =  1.0416666666666666%;
+ *************************************/
 /*-----------------------------------------
 use case .col should equal 12 if not items will wrap inside .row
 --------------------------------------------*/
 /** upgraded for star-wars design
  add col-1
  custom push-1
- media query col-1 
+ media query col-1
 **/
 html {
   box-sizing: border-box;
@@ -27,8 +32,8 @@ html {
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
-  padding-left: 1.04166666%;
-  padding-right: 1.04166666%;
+  padding-left: 2.0833333333333332%; /* = 20px*/
+  padding-right: 2.0833333333333332%;/* = 20px*/
 }/*row is to small wraps items inside section*/
 
 .col-1,.col-3, .col-4, .col-6, .col-12 {
@@ -36,7 +41,7 @@ html {
 }
 .push-1 {
   display: inline-flex;
-  left: 30%;
+
 }
 @media (min-width: 40em) {
   .row {
