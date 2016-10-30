@@ -38,10 +38,10 @@ html {
 
 .col-1,.col-3, .col-4, .col-6, .col-12 {
   padding-bottom: .25em;
-  flex-basis: 95.8333333333333336%;
+  /*flex-basis: 95.8333333333333336%;*/
 }
 
-@media (min-width: 40em) {
+@media (min-width: 40em) {/* 640px*/
   .row {
     flex-direction: row;
     flex-wrap: wrap;
