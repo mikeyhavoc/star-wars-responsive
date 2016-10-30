@@ -22,13 +22,11 @@ use case .col should equal 12 if not items will wrap inside .row
 html {
   box-sizing: border-box;
 }
-*, *::before, *::after {
+*::before, *::after {
   box-sizing: inherit;
 }
 
-.container {
-  width:
-}
+
 
 .row {
   display: flex;
@@ -40,11 +38,9 @@ html {
 
 .col-1,.col-3, .col-4, .col-6, .col-12 {
   padding-bottom: .25em;
+  flex-basis: 95.8333333333333336%;
 }
-/*.push-1 {
-  display: inline-flex;
 
-}*/
 @media (min-width: 40em) {
   .row {
     flex-direction: row;
