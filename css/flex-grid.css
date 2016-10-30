@@ -7,7 +7,9 @@
 /****************************
 px to % for a 960 grid
  20  / 960  =  2.0833333333333332%;
+ ^  *  2    = 95.8333333333333336%;
  10 / 960   =  1.0416666666666666%;
+
  *************************************/
 /*-----------------------------------------
 use case .col should equal 12 if not items will wrap inside .row
@@ -25,7 +27,7 @@ html {
 }
 
 .container {
-  width: 100%;
+  width:
 }
 
 .row {
@@ -39,10 +41,10 @@ html {
 .col-1,.col-3, .col-4, .col-6, .col-12 {
   padding-bottom: .25em;
 }
-.push-1 {
+/*.push-1 {
   display: inline-flex;
 
-}
+}*/
 @media (min-width: 40em) {
   .row {
     flex-direction: row;
