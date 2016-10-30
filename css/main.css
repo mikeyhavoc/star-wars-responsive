@@ -1,0 +1,22 @@
+header {
+  background-color: #F0BD35;
+  padding-top: -0.25em;
+}
+h1 {
+  font-size: 1.6em;
+}
+header p {
+  margin-top: -0.75em;
+}
+
+/**************************
+helpers
+***************************/
+
+.txt {
+  
+}
+
+/*************************
+header
+**************************/
