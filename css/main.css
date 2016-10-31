@@ -1,15 +1,13 @@
 header {
   background-color: #F0BD35;
-  padding-top: -0.25em;
+  
 }
 h1 {
   font-size: 1.6em;
 }
-header p {
-  margin-top: -0.75em;
-}
+
 main {
-  margin-top: 3em;
+  margin-top: 2em;
 }
 /**************************
 helpers
@@ -18,7 +16,7 @@ helpers
 
 }
 .txt {
-
+  text-align: left;
 }
 /*************************
 header
