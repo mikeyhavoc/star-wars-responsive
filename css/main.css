@@ -5,11 +5,20 @@ header {
   width: 100%;
 }
 h1 {
-  font-size: 1.6em;
+  margin-bottom: 0;
+  font-size: 1.75em;
+  font-weight: 700;
+
+}
+p {
+  margin-top: .25em;
 }
 
 main {
   margin-top: 2em;
+}
+img {
+  width: 100%;
 }
 /**************************
 helpers
