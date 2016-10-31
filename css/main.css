@@ -21,9 +21,9 @@ main {
 article {
   width: 20em;
 }
-section {
+/*section {
   display: inline-flex;
-}
+}*/
 
 img {
   min-width: 6.25%;
@@ -35,4 +35,5 @@ helpers
 .card {
   /*width: ;*/
   border: 1px solid lightgrey;
+  margin-bottom: 2em;
 }
