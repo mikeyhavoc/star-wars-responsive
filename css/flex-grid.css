@@ -25,16 +25,17 @@ html {
 *::before, *::after {
   box-sizing: inherit;
 }
-.container {
-  display: flex;
-  flex-direction: column;
-}
 .set {
   display: flex;
   justify-content: center;
+  flex-basis: 100%;
+  flex-grow: 1;
   flex-wrap: wrap;
 }
 .card {
-  margin-left: 2.0833333333333332%;
-  margin-right: 2.0833333333333332%;
+  /*margin-left: 2.0833333333333332%;
+  margin-right: 2.0833333333333332%;*/
+  width: 16em;
+
+
 }
