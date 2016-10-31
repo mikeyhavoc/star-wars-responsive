@@ -21,10 +21,13 @@ main {
 article {
   width: 20em;
 }
+section {
+  display: inline-flex;
+}
 
 img {
-  min-width: 20em;
-  max-width: 6.25%;
+  min-width: 6.25%;
+  max-width: 20em;
 }
 /**************************
 helpers
