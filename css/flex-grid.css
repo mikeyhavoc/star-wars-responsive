@@ -31,10 +31,6 @@ html {
   flex-direction: column;
 }
 
-.grid {
-  max-width: 60em;
-}
-
 .row {
   display: flex;
   flex-direction:column;
@@ -77,5 +73,3 @@ html {
     flex-basis: 97.91666668%;
   }
 }/**  end only media-query 40em **/
-
-@media (min-width: )
