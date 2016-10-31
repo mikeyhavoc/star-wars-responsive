@@ -15,16 +15,21 @@ p {
 }
 
 main {
-  margin-top: 2em;
+  margin-top: 7.5em;
+}
+article {
+  width: 20em;
 }
 img {
-  width: 100%;
+  min-width: 20em;
+  max-width: 6.25%;
 }
 /**************************
 helpers
 ***************************/
 .card {
-
+  /*width: ;*/
+  border: 1px solid lightgrey;
 }
 .txt {
   text-align: left;
