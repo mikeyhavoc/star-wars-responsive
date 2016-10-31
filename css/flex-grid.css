@@ -31,9 +31,14 @@ html {
   flex-direction: column;
 }
 
+.grid {
+  max-width: 60em;
+}
+
 .row {
   display: flex;
   flex-direction:column;
+  justify-content: space-between;
   flex-wrap: wrap;
   padding-left: 2.0833333333333332%; /* = 20px*/
   padding-right: 2.0833333333333332%;/* = 20px*/
@@ -72,3 +77,5 @@ html {
     flex-basis: 97.91666668%;
   }
 }/**  end only media-query 40em **/
+
+@media (min-width: )
