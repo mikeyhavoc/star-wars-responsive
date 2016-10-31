@@ -27,7 +27,7 @@ section {
 
 img {
   min-width: 6.25%;
-  max-width: 20em;
+  max-width: 100%;
 }
 /**************************
 helpers
@@ -36,9 +36,3 @@ helpers
   /*width: ;*/
   border: 1px solid lightgrey;
 }
-.txt {
-  text-align: left;
-}
-/*************************
-header
-**************************/
