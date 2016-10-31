@@ -26,7 +26,10 @@ html {
   box-sizing: inherit;
 }
 
-
+.container {
+  display: flex;
+  flex-direction: column;
+}
 
 .row {
   display: flex;
@@ -40,6 +43,8 @@ html {
   padding-bottom: .25em;
   /*flex-basis: 95.8333333333333336%;*/
 }
+
+
 
 @media (min-width: 40em) {/* 640px*/
   .row {
