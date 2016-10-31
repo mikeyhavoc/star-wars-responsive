@@ -25,34 +25,14 @@ html {
 *::before, *::after {
   box-sizing: inherit;
 }
-
 .container {
   display: flex;
   flex-direction: column;
 }
-.grid {
-
-}
-
-.row {
-  display: flex;
-  flex-direction:column;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  padding-left: 2.0833333333333332%; /* = 20px*/
-  padding-right: 2.0833333333333332%;/* = 20px*/
-}/*row is to small wraps items inside section*/
-
-.col-1,.col-3, .col-4, .col-6, .col-12 {
-  padding-bottom: .25em;
-  /*flex-basis: 95.8333333333333336%;*/
-}
-
 .set {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
 }
 .card {
   margin-left: 2.0833333333333332%;
