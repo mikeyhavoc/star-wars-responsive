@@ -1,6 +1,8 @@
 header {
   background-color: #F0BD35;
-  
+  position:fixed;
+  top: 0;
+  width: 100%;
 }
 h1 {
   font-size: 1.6em;
@@ -21,3 +23,7 @@ helpers
 /*************************
 header
 **************************/
+.container {
+  display: flex;
+  flex-direction: column;
+}
